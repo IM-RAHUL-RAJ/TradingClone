@@ -1,0 +1,32 @@
+2023-09-20 12:14:24,980 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@50305a
+2023-09-20 12:28:46,465 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@7072bc39
+2023-09-20 12:33:02,068 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@3676ac27
+2023-09-20 12:33:37,274 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@3676ac27
+2023-09-20 12:33:53,330 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@35038141
+2023-09-20 12:34:37,899 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@3676ac27
+2023-09-20 12:38:16,415 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@35038141
+2023-09-20 12:39:48,036 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@40f33492
+2023-09-20 12:55:56,578 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@3676ac27
+2023-09-20 13:01:25,316 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@35038141
+2023-09-20 13:06:56,712 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@2ca65ce4
+2023-09-20 13:06:56,890 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@1deb2c43
+2023-09-20 13:13:26,532 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@173b9122
+2023-09-20 13:13:26,687 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@47a64f7d
+2023-09-20 13:28:07,783 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@51650883
+2023-09-20 13:28:07,962 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@323e8306
+2023-09-20 13:28:56,672 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@41a6d121
+2023-09-20 13:28:56,852 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@286b39c2
+2023-09-20 13:29:40,425 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@241a53ef
+2023-09-20 13:29:40,654 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@6e9c413e
+2023-09-20 13:30:01,139 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@285f09de
+2023-09-20 13:30:01,331 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@47a64f7d
+2023-09-20 13:31:31,210 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@6c4f9535
+2023-09-20 13:31:31,251 ERROR c.f.i.ClientDaoImpl Cannot insert client: com.fidelity.model.Person@6c4f9535: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SCOTT.DBG_CLIENT_PROFILE_PK) violated
+
+2023-09-20 13:31:31,440 DEBUG c.f.i.ClientDaoImpl Inserting Clientcom.fidelity.model.Person@50d68830
+2023-09-20 14:24:34,307 DEBUG c.f.i.ClientDaoImpl Inserting ClientPerson [firstName=Vishwanath, lastName=Kumar, emailId=test5@gmail.com, username=aryan, country=India, dateOfBirth=2023-01-01, panCardIdentification=xxx-xx-xxxx, password=12345678, phoneNumber=1234567890]
+2023-09-20 14:24:34,349 ERROR c.f.i.ClientDaoImpl Cannot insert client: Person [firstName=Vishwanath, lastName=Kumar, emailId=test5@gmail.com, username=aryan, country=India, dateOfBirth=2023-01-01, panCardIdentification=xxx-xx-xxxx, password=12345678, phoneNumber=1234567890]: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SCOTT.DBG_CLIENT_PROFILE_PK) violated
+
+2023-09-20 14:24:34,507 DEBUG c.f.i.ClientDaoImpl Inserting ClientPerson [firstName=Vishwanath, lastName=Kumar, emailId=test6@gmail.com, username=aryan, country=India, dateOfBirth=2023-01-01, panCardIdentification=xxx-xx-xxxx, password=12345678, phoneNumber=1234567890]
+2023-09-20 14:26:17,966 ERROR c.f.i.ClientDaoImpl Cannot insert client: Person [firstName=Vishwanath, lastName=Kumar, emailId=test5@gmail.com, username=aryan, country=India, dateOfBirth=2023-01-01, panCardIdentification=xxx-xx-xxxx, password=12345678, phoneNumber=1234567890]: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SCOTT.DBG_CLIENT_PROFILE_PK) violated
+
