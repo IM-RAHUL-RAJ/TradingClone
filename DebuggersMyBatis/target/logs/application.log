@@ -1,0 +1,591 @@
+11:08:04.809 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preferences SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:10:25.403 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preferences SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:11:03.976 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preferences SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:14:10.586 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:22:29.486 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:31:44.352 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:31:44.557 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 1003(String)
+11:31:44.571 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 0
+11:32:40.891 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:32:41.067 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(String)
+11:33:42.746 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:33:42.948 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(String)
+11:37:15.741 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+11:37:15.786 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:37:15.962 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(String)
+11:41:42.257 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+11:41:42.299 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:41:42.472 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+11:47:03.251 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+11:47:03.296 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:47:03.470 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+11:50:43.747 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+11:50:43.794 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:50:44.010 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+11:53:41.781 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+11:53:41.818 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:53:42.021 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+11:59:21.386 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+11:59:21.422 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+11:59:21.600 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:09:16.605 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+12:09:16.651 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:09:16.858 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:09:44.394 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:09:44.589 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:09:44.725 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:10:09.932 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:10:10.142 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:10:10.268 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:10:25.843 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:10:26.074 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:10:26.204 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:11:28.360 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+12:11:28.404 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:11:28.625 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:11:46.169 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:11:46.382 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:11:46.531 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:14:00.041 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+12:14:00.080 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:14:00.258 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:21:51.724 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:21:51.951 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:21:52.090 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:22:38.370 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreference: enter
+12:22:38.415 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:22:38.638 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:34:04.122 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+12:34:04.157 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+12:34:04.470 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:34:04.473 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:34:04.587 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:34:04.667 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+12:34:04.672 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:34:04.676 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:35:02.190 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+12:35:02.241 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+12:35:02.551 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PR10(String), 10010(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+12:35:02.726 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:35:02.728 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:35:02.840 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:35:02.921 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+12:35:02.922 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:35:02.923 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:36:51.045 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+12:36:51.085 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+12:36:51.293 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PR10(String), 10010(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+12:36:51.496 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:36:51.497 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:36:51.596 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:36:51.668 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+12:36:51.669 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:36:51.670 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:37:37.888 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:37:38.073 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:37:38.198 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:37:38.311 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+12:37:38.313 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:37:38.320 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:38:13.275 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+12:38:13.314 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:38:13.481 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+12:46:04.553 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+12:46:04.596 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+12:46:04.850 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PR10(String), 10010(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+12:46:05.075 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+12:46:05.081 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(String)
+12:46:05.230 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+12:46:05.333 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+12:46:05.335 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+12:46:05.336 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+13:00:35.997 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+13:00:36.039 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+13:00:36.275 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PR10(String), 10010(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+13:00:36.471 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:00:36.473 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:00:36.610 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:00:36.675 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+13:00:36.676 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+13:00:36.677 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+13:01:09.981 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+13:01:10.020 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+13:01:10.212 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PR10(String), 10010(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+13:01:10.448 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:01:10.449 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:01:10.577 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:01:10.654 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+13:01:10.655 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+13:01:10.656 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+13:46:19.530 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:19.686 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:19.862 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:19.924 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:19.928 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:19.933 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.019 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.020 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.025 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.088 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.090 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.098 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.148 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.150 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.153 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.191 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.192 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.195 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.233 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.234 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.237 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.278 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.279 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.283 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.329 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.330 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.335 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.374 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.375 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.377 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.418 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:46:20.419 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:46:20.421 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:46:20.425 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+13:46:20.470 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+13:46:20.472 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+13:49:00.099 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:00.457 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:00.770 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:00.938 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:00.939 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:00.950 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.012 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.013 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.023 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.083 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.087 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.091 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.140 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.144 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.148 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.199 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.200 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.217 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.268 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.270 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.273 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.319 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.320 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.328 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.393 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.394 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.397 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.444 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.445 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.449 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.500 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+13:49:01.501 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+13:49:01.505 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+13:49:01.513 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+13:49:01.561 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+13:49:01.563 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:20:23.825 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:24.052 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:24.217 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:24.297 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:24.298 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:24.306 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:24.371 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:24.372 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:24.379 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:24.454 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:24.455 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:24.463 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:24.569 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:24.570 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:24.579 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:24.683 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:24.688 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:24.698 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:24.773 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:24.778 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:24.787 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.034 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.036 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.042 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.098 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.099 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.103 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.164 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.166 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.169 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.337 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.338 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.340 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.387 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.388 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.391 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.439 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.440 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.443 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.488 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.489 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.493 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.539 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.540 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.543 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.607 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.610 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.619 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.662 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.663 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.666 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.707 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:20:25.709 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:20:25.716 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:20:25.721 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:20:25.774 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:20:25.777 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:22:11.313 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+14:22:11.355 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+14:22:11.564 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PR10(String), 10010(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+14:22:11.740 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:11.742 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:11.870 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:11.944 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:22:11.945 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:22:11.946 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:22:52.829 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.020 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.146 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.219 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.220 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.226 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.320 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.321 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.324 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.375 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.376 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.383 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.427 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.428 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.433 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.479 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.479 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.483 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.525 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.526 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.528 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.592 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.593 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.598 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.645 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.646 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.649 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.692 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.693 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.696 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.739 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.740 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.743 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.783 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.784 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.786 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.826 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.827 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.830 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.873 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.873 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.876 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.918 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.919 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.921 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:53.961 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:53.963 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:53.969 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:54.011 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:54.012 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:54.015 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:54.054 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:22:54.055 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:22:54.057 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:22:54.060 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:22:54.101 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:22:54.104 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:38:26.152 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+14:38:26.195 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+14:38:26.534 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PR10(String), 10010(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+14:38:27.038 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:27.042 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:27.215 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:27.298 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:38:27.302 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:38:27.304 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:38:27.313 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+14:38:27.371 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:38:27.372 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:38:27.373 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:38:27.376 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+14:38:44.689 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:44.892 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.031 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.101 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.102 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.109 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.204 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.205 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.210 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.266 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.268 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.274 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.333 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.338 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.343 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.428 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.430 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.435 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.491 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.493 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.498 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.576 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.577 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.584 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.640 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.641 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.645 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.695 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.697 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.699 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.752 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.753 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.758 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.807 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.809 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.810 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.868 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.869 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.872 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.930 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.930 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.934 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:45.985 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:45.986 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:45.989 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:46.034 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.038 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.049 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:46.090 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.090 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.093 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:46.131 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.132 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.134 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:38:46.138 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:38:46.175 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:38:46.178 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:38:46.182 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+14:38:46.183 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+14:38:46.222 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+14:38:46.225 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PF3(String), 10003(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+14:38:46.228 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+14:38:46.272 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.273 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.279 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.340 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.341 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.345 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.390 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.391 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.394 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.435 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.436 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.442 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.483 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.484 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.487 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.538 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.539 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+14:38:46.541 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+14:38:46.583 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.584 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+14:38:46.585 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+14:38:46.631 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.632 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+14:38:46.635 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.681 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.683 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+14:38:46.687 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.732 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.810 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+14:38:46.814 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.816 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+14:38:46.860 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+14:38:46.861 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PF1(String), 10001(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+14:38:46.864 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+14:38:46.918 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.919 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.921 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:46.960 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:46.960 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:46.962 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:47.003 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:47.004 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:47.009 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:47.050 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:47.051 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:38:47.055 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:38:47.112 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:47.113 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+14:38:47.114 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+14:38:47.154 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:38:47.155 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+14:38:47.157 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+14:41:41.350 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:41:41.599 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:41:41.765 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+14:41:41.909 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:41:41.910 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:41:41.915 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:41:41.918 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 2
+14:41:41.988 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:41:41.991 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:41:41.996 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:41:41.999 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 2
+14:49:04.555 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+14:49:04.756 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+14:49:04.939 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+14:49:05.029 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:49:05.031 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:49:05.038 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:49:05.045 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+14:49:05.176 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+14:49:05.177 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+14:49:05.178 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+14:49:05.182 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+15:51:43.292 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:43.586 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.036 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.121 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.129 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.137 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.223 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.227 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.232 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.292 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.293 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.299 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.340 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.343 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.347 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.393 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.394 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.401 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.444 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.445 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.449 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.524 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.525 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.529 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.569 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.571 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.574 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.616 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.618 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.620 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.660 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.661 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.668 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.713 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.714 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.716 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.756 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.757 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.760 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.803 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.803 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.806 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.845 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.846 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.849 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.893 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.895 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.902 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.946 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.947 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.950 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.990 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:44.991 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:44.993 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:44.996 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+15:51:45.034 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+15:51:45.037 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+15:51:45.044 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+15:51:45.046 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForNewClient: Adding preferences for new client
+15:51:45.084 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: INSERT INTO dbg_client_preference (preference_id, client_id, investmentpurpose, risktolerance, incomecategory, lengthofinvestment) VALUES (?,?,?,?,?,?)
+15:51:45.085 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: PF3(String), 10003(Integer), Retirement(String), Moderate(String), High(String), Long-term(String)
+15:51:45.090 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 1
+15:51:45.130 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.131 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.135 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.185 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.187 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.191 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.239 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.240 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.246 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.288 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.288 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.293 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.340 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.340 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.342 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.395 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.396 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+15:51:45.399 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+15:51:45.433 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.434 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+15:51:45.436 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+15:51:45.479 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.480 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+15:51:45.483 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:45.526 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.527 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+15:51:45.529 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:45.572 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.573 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+15:51:45.576 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:45.615 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.616 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+15:51:45.618 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:45.658 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.659 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10001(Integer)
+15:51:45.661 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 1
+15:51:45.701 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.702 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.706 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.758 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.759 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.763 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.813 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.814 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.823 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.867 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.868 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:45.871 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:45.936 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:45.937 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+15:51:45.949 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+15:51:46.014 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:46.015 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10010(Integer)
+15:51:46.018 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 0
+15:51:46.129 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance, incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment FROM dbg_client_preference WHERE client_id=?
+15:51:46.130 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: 10003(Integer)
+15:51:46.132 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==      Total: 2
+15:51:46.213 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+15:51:46.213 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+15:51:46.214 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+15:51:46.216 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 2
+15:51:46.268 DEBUG com.fidelity.integration.PreferencesDaoMyBatisImpl.addPreferenceForExistingClient: enter
+15:51:46.269 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==>  Preparing: UPDATE dbg_client_preference SET investmentpurpose=?, risktolerance=?, incomecategory=?, lengthofinvestment=? WHERE client_id=?
+15:51:46.271 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: ==> Parameters: Retirement(String), Moderate(String), High(String), Long-term(String), 10003(Integer)
+15:51:46.273 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug: <==    Updates: 2

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fidelity.integration.PreferencesMapper">
+	<select id ="getPreferencesByClientId" parameterType ="int" resultMap="PreferencesMap">
+		SELECT preference_id as preferenceId, client_id as clientId, investmentpurpose as investmentPurpose, risktolerance as riskTolerance,
+		incomecategory as incomeCategory, lengthofinvestment as lengthOfInvestment
+		FROM dbg_client_preference
+		WHERE client_id=#{clientId}
+	</select>
+
+	<resultMap type="Preferences" id="PreferencesMap">
+		<id property="preferenceId" column="preference_id"/>
+		<result property="clientId" column="client_id"/>
+		<result property="investmentPurpose" column="investmentpurpose"/>
+		<result property="riskTolerance" column="risktolerance"/>
+		<result property="incomeCategory" column="incomecategory"/>
+		<result property="lengthOfInvestment" column="lengthofinvestment"/>
+	</resultMap>
+	
+	<!--<update id="addPreference" parameterType="Preferences">
+			UPDATE dbg_client_preference
+			SET investmentpurpose=#{investmentPurpose}, risktolerance=#{riskTolerance}, incomecategory=#{incomeCategory}, lengthofinvestment=#{lengthOfInvestment}
+			WHERE client_id=#{clientId}
+	</update>-->
+	
+	
+</mapper>
