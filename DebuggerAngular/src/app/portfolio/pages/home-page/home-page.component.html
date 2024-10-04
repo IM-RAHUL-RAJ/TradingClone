@@ -1,0 +1,99 @@
+
+<!-- **body part here  -->
+<!-- <h1>Add Preferences</h1>
+<p>Select from the list of companies :</p>
+<ul>
+    <li>JPMC</li> 
+    <li>Fidelity</li>
+    <li>Alphabet</li>
+    <li>Visa</li>
+    <li>NVIDIA</li>
+</ul>
+<button>Add</button>
+
+<h2> Your Preferences are : </h2>
+<ul>
+    <li>JPMC</li>
+    <li>Alphabet</li>
+</ul>
+<button>Edit Preferences</button>
+
+<button>Start Trading</button> -->
+<!-- to be routed to trading page -->
+
+
+
+<app-nav-bar></app-nav-bar>
+
+
+<div class="main-row">
+    <section>
+        <div class="index-text-box">
+            <p>S&P 500 </p>
+            <p>NASDAQ</p>
+        </div>
+        <div class="ag-grid-box">
+            <ag-grid-angular
+                style="width: 100%; height: 100%"
+                class="ag-theme-alpine"
+                [columnDefs]="columnDefs"
+                [rowData]="rowData"
+                [animateRows]="true"
+                [defaultColDef]="defaultColDef"
+            ></ag-grid-angular>
+        </div>
+    </section>
+
+    <!-- vertical dashed line separator -->
+    <div class="y-dashed"></div>
+
+    <!-- Holdings Information -->
+    <section>
+        <div class="text-box">
+            <p id="hello-text">Hello, {{person!.firstName}}</p>
+            <h3 id="holdings-text">Holdings</h3>
+            <div class="holdings-box">
+                <div class="holding-value">
+                    <p id="p-l-value">1.43L</p>
+                    <p id="p_l">P&L</p>
+                </div>
+
+                <div class="p-l-text-box">
+                    <p id="p-l-percent">+50.0%</p>
+                </div>
+                <!-- vertical line without dashes -->
+                <div class="y-line"></div>
+
+                <div class="investment-details">
+                    <p>Current Value : 3.56L</p>
+                    <p>Investment : 2.08L</p>
+                </div>
+            </div>
+        </div>
+        <div class="visualization-box">
+            <div class="chart-container">
+                <canvas  id="MyChart" >{{ chart }}</canvas>
+          </div>
+        </div>
+    </section>
+
+     <!-- vertical dashed line separator -->
+    <div class="y-dashed"></div>
+
+
+    <section class="third-section">
+        <div class="quick-links-box">
+            <p>Your Profile</p>
+            <div class="x-line"></div>
+            <p>Your Orders</p>
+            <div class="x-line"></div>
+            <p><a class="anchor" routerLink="/roboAdvisor">Robo Advisor</a></p>
+            <div class="x-line"></div>
+            <p><a class="anchor" routerLink="/updatePreference">Update Preference</a></p>
+            <div class="x-line"></div>
+            <button class="trade-button" routerLink="/trade">Trade</button>
+        </div>
+    </section>
+</div>
+
+<app-footer></app-footer>

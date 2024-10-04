@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    color: #333;
+    
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Links and social icons */
+.footer-links li,
+.social-icons li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.social-icons a:hover {
+    color: #4CAF50;
+}
+
+/* Social icons */
+.social-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 0;
+    }
+    
+    .footer h4 {
+        margin-bottom: 15px;
+    }
+}
+
+

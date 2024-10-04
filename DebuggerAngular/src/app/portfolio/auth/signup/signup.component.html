@@ -1,0 +1,421 @@
+<div class="bg-white">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav
+      class="flex items-center justify-between p-6 lg:px-8"
+      aria-label="Global"
+    >
+      <div class="flex lg:flex-1">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt=""> -->
+          <img src="../../../../assets/images/logo.PNG" alt="" />
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button
+          type="button"
+          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </div>
+      
+      <!-- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <button routerLink="/login">
+          <a class="text-sm font-semibold leading-6 text-gray-900"
+            >Log in <span aria-hidden="true"></span></a
+          >
+        </button>
+      </div> -->
+    </nav>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div class="lg:hidden" role="dialog" aria-modal="true">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-50"></div>
+      <div
+        class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+      >
+        <div class="flex items-center justify-between">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img
+              class="h-8 w-auto"
+              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              alt=""
+            />
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <a
+              id="nav"
+                href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >Product</a
+              >
+              <a
+              id="nav"
+                href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >Features</a
+              >
+              <a
+              id="nav"
+                href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >Marketplace</a
+              >
+              <a
+                id="nav"
+                href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >Company</a
+              >
+            </div>
+            <div class="py-6">
+              <button (click)="goToLogin()" routerLink="/login" type="button">
+                <a
+                  href="#"
+                  class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >Log in</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <app-nav-bar></app-nav-bar>
+
+  <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div
+      class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+      aria-hidden="true"
+    >
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#42fa34] to-[#94e892] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style="
+          clip-path: polygon(
+            74.1% 44.1%,
+            100% 61.6%,
+            97.5% 26.9%,
+            85.5% 0.1%,
+            80.7% 2%,
+            72.5% 32.5%,
+            60.2% 62.4%,
+            52.4% 68.1%,
+            47.5% 58.3%,
+            45.2% 34.5%,
+            27.5% 76.7%,
+            0.1% 64.9%,
+            17.9% 100%,
+            27.6% 76.8%,
+            76.1% 97.7%,
+            74.1% 44.1%
+          );
+        "
+      ></div>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+          Empowering Your Financial Journey
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">
+          Unlock your trading potential with our user-friendly platform. Trade
+          and stay ahead of the markets with real-time data and intuitive tools
+        </p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <button
+            id="getstarted"
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+      aria-hidden="true"
+    >
+      <div
+        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#3afa2f] to-[#93fc8d] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+        style="
+          clip-path: polygon(
+            74.1% 44.1%,
+            100% 61.6%,
+            97.5% 26.9%,
+            85.5% 0.1%,
+            80.7% 2%,
+            72.5% 32.5%,
+            60.2% 62.4%,
+            52.4% 68.1%,
+            47.5% 58.3%,
+            45.2% 34.5%,
+            27.5% 76.7%,
+            0.1% 64.9%,
+            17.9% 100%,
+            27.6% 76.8%,
+            76.1% 97.7%,
+            74.1% 44.1%
+          );
+        "
+      ></div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="staticBackdrop"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    tabindex="-1"
+    aria-labelledby="staticBackdropLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign Up</h1>
+          <!-- <button id="close" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          <button
+            id="close"
+            type="button"
+            class="close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >&times;</button>
+        </div>
+        <div class="modal-body">
+          <section>
+            <!-- <h2>Signup</h2> -->
+            <form id="signupForm" #signupForm="ngForm">
+              <div class="mb-3">
+                <label for="firstname" class="form-label">First Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstname"
+                  name="firstName"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.client.client_firstName"
+                  pattern="[A-Za-z]{3,}"
+                  required
+                />
+                <div class="warning">Please enter at least 3 letters.</div>
+
+                <label for="lastname" class="form-label">Last Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastname"
+                  name="lastName"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.client.client_lastName"
+                  pattern="[A-Za-z]{3,}"
+                  required
+                />
+                <div class="warning">Please enter at least 3 letters.</div>
+
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  name="emailId"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.client.client_emailId"
+                  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                  required
+                />
+                <div class="warning">Please enter valid email address.</div>
+
+                <label for="username" class="form-label">Username:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.client.client_username"
+                  pattern="[A-Za-z]{6,}"
+                  required
+                />
+                <div class="warning">Please enter at least 6 letters.</div>
+
+                <label for="country" class="form-label">Select a country:</label>
+                <select id="country" name="this.client.client_country" (change)="changeInput($event)" class="form-control" [(ngModel)]="this.client.client_country">
+                  <option value="India">India</option>
+                  <option value="USA">USA</option>
+                </select>
+
+                <label for="info" class="form-label">Enter your ID:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="info"
+                  name="panCardIdentification"
+                  [placeholder]="placeholdertext"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.client.client_panCardIdentification"
+                  [pattern]="patternvalidation"
+                  required
+                />
+
+                <!-- pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" -->
+
+                <div class="warning">Please enter a valid ID.</div>
+
+                <!-- <label for="pan" class="form-label">PAN Id:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="pan"
+                  name="panCardIdentification"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.user.panCardIdentification"
+                  pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"
+                  required
+                />
+                <div class="warning">Please enter a valid PAN Number (e.g., ABCDE1234F).</div> -->
+
+                <!-- <input
+                  type="text"
+                  class="form-control"
+                  id="country"
+                  name="country"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.user.country"
+                  required
+                /> -->
+                <label for="dateofbirth" class="form-label"
+                  >Date of Birth:</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dateofbirth"
+                  name="dateOfBirth"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.client.client_dateOfBirth"
+                  required
+                />
+                
+
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password:
+                </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  name="password"
+                  [(ngModel)]="this.client.client_password"
+                  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$"
+                  required
+                />
+                <div class="warning">Note: Password must be at least 8 characters and include at least 1 lowercase letter, 1 uppercase letter, and 1 digit.</div>
+
+                <label for="exampleReInputPassword1" class="form-label"
+                  >Re-enter Password:
+                </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  name="passwordCheck"
+                  id="exampleReInputPassword1"
+                  [(ngModel)]="this.passwordCheck"
+                  required
+                />
+
+                <label for="phonenumber" class="form-label"
+                  >Phone Number:
+                </label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phonenumber"
+                  name="phoneNumber"
+                  aria-describedby="emailHelp"
+                  [(ngModel)]="this.client.client_phoneNumber"
+                  pattern="[0-9]{10}"
+                  required
+                />
+                <div class="warning">Should contain at least 10 digits</div>
+              </div>
+
+              <button
+                type="submit"
+                id="signupBtn"
+                class="btn btn-primary"
+                (click)="addClient()"
+                data-toggle="modal" data-target="#exampleModal"
+              >
+                Signup
+              </button>
+            </form>
+
+
+            <div id="user-added" class="user-added">
+              <p>Sign Up Successful. Please LOGIN.</p>
+              <button type="button" data-bs-dismiss="modal" class="btn" (click)="userAdded()">
+                Login
+              </button>
+            </div>
+            <div id="existing-user-found" class="existing-user-found">
+              <p>{{ similarField }} already registered.</p>
+              <button type="button" data-bs-dismiss="modal" class="btn" (click)="userAdded()">
+                Login
+              </button>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- </section> -->
+
+      
+    </div>
+  </div>
+</div>

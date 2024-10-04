@@ -1,0 +1,55 @@
+<div class="card text-center">
+    <div class="card-header">Investment Preference</div>
+    <div class="card-body">
+      <h5 class="card-title">NOTE: Please add your investment preference</h5>
+      <form>
+        <div class="form-group">
+          <label class="col-25" for="InvestmentPurpose">Investment Purpose:</label>
+          <input
+            type="text"
+            class="col-75"
+            id="investmentPurpose"
+            placeholder="Ex. College Fund"
+          />
+        </div>
+  
+        <div class="form-group">
+          <label class="col-25" for="riskTolerance">Risk Tolerance:</label>
+          <select name="riskTolerance" id="riskTolerance" class="col-75">
+            <option value="select">Select</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+  
+        <div class="form-group">
+          <label class="col-25" for="incomeCategory">Income Category:</label>
+          <select name="incomeCategory" id="incomeCategory" class="col-75">
+            <option value="select">Select</option>
+            <option value="0 - 20000">0 - $20,000</option>
+            <option value="20001 - 40000">$20,001 - $40,000</option>
+            <option value="40001 - 60000">$40,001 - $60,000</option>
+            <option value="60001 - 80000">$60,001 - $80,000</option>
+            <option value="80001 - 100000">$80,001 - $100,000</option>
+            <option value="100001 - 150000">$100,001 - $150,000</option>
+            <option value="150000+">$150,000+</option>
+          </select>
+        </div>
+  
+        <div class="form-group">
+          <label class="col-25" for="lengthOfInvestment">Length Of Investment:</label>
+          <select name="lengthOfInvestment" id="lengthOfInvestment" class="col-75">
+            <option value="select">Select</option>
+            <option value="0 - 5 years">0 - 5 years</option>
+            <option value="5 - 7 years">5 - 7 years</option>
+            <option value="7 - 10 years">7 - 10 years</option>
+            <option value="10 - 15 years">10 - 15 years</option>
+          </select>
+        </div>
+      </form>
+  
+      <button type="submit" class="btn" (click)="skipToHome()">Skip this step</button>
+      <button type="submit" class="btn" (click)="addToUserDB()">Add Preference</button>
+    </div>
+  </div>

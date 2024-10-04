@@ -1,0 +1,20 @@
+<app-nav-bar></app-nav-bar>
+
+<h1 class="header">Hello {{user?.firstName}}, these are some stocks which you can buy according to your investment preference</h1>
+
+<div class="box-container">
+  <div class="box" id="buy" *ngFor="let item of roboAdvisorData">
+    <div class="field-title">{{ item.instrumentDescription }}</div>
+    <div class="field">Instrument ID : {{ item.instrumentId }}</div>
+    <div class="field">External ID Type : {{ item.externalIdType }}</div>
+    <div class="field">External ID : {{ item.externalId }}</div>
+    <div class="field">Category ID : {{ item.categoryId }}</div>
+    <div class="field">Max Quantity : {{ item.maxQuantity }}</div>
+    <div class="field">Min Quantity : {{ item.minQuantity }}</div>
+    <div class="buyBtn">
+      <button>Buy</button>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

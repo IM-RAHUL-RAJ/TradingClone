@@ -1,0 +1,44 @@
+<app-nav-bar></app-nav-bar>
+<div class="header">
+    <h1>Order History</h1>
+</div>
+<div class="table-header">
+    <input type="text" class="search" [(ngModel)]="search" placeholder="search company here...."/>
+    <button type="button" class="Export"> Generate Export Report</button>
+</div>
+<div class="history-table">
+    <table>
+        <thead>
+            <th>Company name:</th>
+            <th>Buy/Sell</th>
+            <th>Date of transaction</th>
+            <th>Time of transaction</th>
+            <th>Number of shares</th>
+            <th>Total Price</th>
+            <th>Balance</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of filterTable()">
+                <td>{{c.company}}</td>
+                <td>{{c.action}}</td>
+                <td>{{c.date}}</td>
+                <td>{{c.time}}</td>
+                <td>{{c.shares}}</td>
+                <td>{{c.price}}</td>
+                <td>{{c.balance}}</td>
+            </tr>
+            
+            <tr *ngFor="let h of history">
+                <td>{{h.company}}</td>
+                <td>{{h.action}}</td>
+                <td>{{h.date}}</td>
+                <td>{{h.time}}</td>
+                <td>{{h.shares}}</td>
+                <td>{{h.price}}</td>
+                <td>{{h.balance}}</td>
+            </tr>
+          
+        </tbody>
+    </table>
+</div>
+<app-footer></app-footer>

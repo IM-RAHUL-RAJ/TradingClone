@@ -1,0 +1,45 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="trade">
+    <div class="header">
+        <h1>Buy and Sell Stocks</h1>
+    </div>
+    <div class="balance">
+        <p> Your current balance is : {{balance | currency}}</p>
+    </div>
+    <div class="portfolio-table">
+        <p>Type to search for companies: </p>
+        <div class="search-box">
+            <input class="input input-alt" placeholder="Type Company name" required="" type="text" [(ngModel)]="search" >
+            
+        </div>
+        <div class="table-data">
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Share Price</th>
+                <th><label>Number of shares:</label></th>
+                
+                <th>Buy</th>
+                <th>Sell</th>
+            </tr>
+            <tr *ngFor="let item of filterTable()">
+                <td id="company-name">{{item.instrument.instrumentDescription}}</td>
+            <td>{{item.bidPrice}}</td>
+            <td><input id="number_of_shares" type="number"/></td>
+            <td><button class="buy" (click)="onBuy()">Buy</button></td>
+            <td><button class="sell" (click)="onSell()">Sell</button></td>
+            </tr>
+            <tr *ngFor = "let c of company" >
+            <td id="company-name">{{c.instrument.instrumentDescription}}</td>
+            <td id="price">{{c.bidPrice}}</td>
+            <td><input id="number_of_shares" type="number"/></td>
+            <td><button class="buy" (click)="onBuy()"><span>Buy</span></button></td>
+            <td><button class="sell" (click)="onSell()">Sell</button></td>
+            </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

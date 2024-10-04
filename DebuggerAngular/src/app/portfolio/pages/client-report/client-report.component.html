@@ -1,0 +1,124 @@
+<app-nav-bar></app-nav-bar>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Report</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+
+
+
+
+
+        <!-- Personal Details Section -->
+        <!-- <h2>Personal Details</h2>
+        <p><strong>Name:</strong> {{userDB[0].firstName}}</p>
+        <p><strong>Email:</strong> {{userDB[0].lastName}}</p>
+        <p><strong>Address:</strong> {{userDB[0].emailId}}</p>
+        <p><strong>Username:</strong>{{userDB[0].username}}</p>
+        <p><strong>Country:</strong> {{userDB[0].country}}</p>
+        <p><strong>DOB:</strong> {{userDB[0].dateOfBirth}}</p>
+        <p><strong>Postal Code:</strong> {{userDB[0].postalCode}}</p>
+        <p><strong>Pan:</strong>{{userDB[0].panCardIdentification}}</p>
+        <p><strong>Phone:</strong>{{userDB[0].phoneNumber}}</p> -->
+
+        <h2>Personal Details:</h2>
+        <table id="pd">
+            <tr>
+                <td>Name</td>
+                <td> {{userDB[0].firstName}}</td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td> {{userDB[0].lastName}}</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>{{userDB[0].emailId}}</td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>{{userDB[0].username}}</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>{{userDB[0].country}}</td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>{{userDB[0].dateOfBirth}}</td>
+            </tr>
+            <tr>
+                <td>Postal Code</td>
+                <td>{{userDB[0].postalCode}}</td>
+            </tr>
+            <tr>
+                <td>Pan</td>
+                <td>{{userDB[0].panCardIdentification}}</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>{{userDB[0].phoneNumber}}</td>
+            </tr>
+        </table>
+
+
+
+
+
+        <!-- Preferences Section -->
+        <h2>Preferences</h2>
+        <!-- <p><strong>Investment Purpose:</strong> College Fund</p>
+        <p><strong>Risk Tolerance:</strong> Conservative</p>
+        <p><strong>Income Category:</strong>$60,001 - $80,000</p>
+        <p><strong>Length Of Investment:</strong> 7 - 10 years</p> -->
+        <table id="pref">
+            <tr>
+                <td>Investment Purpose:</td>
+                <td>College Fund</td>
+            </tr>
+            <tr>
+                <td>Risk Tolerance</td>
+                <td>Conservative</td>
+            </tr>
+            <tr>
+                <td>Income Category:</td>
+                <td>$60,001 - $80,000</td>
+            </tr>
+            <tr>
+                <td>Length Of Investment:</td>
+                <td> 7 - 10 years</td>
+            </tr>
+        </table>
+
+        <h2>Current Holdings:</h2>
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Share Price</th>
+
+            </tr>
+
+
+            <tr *ngFor="let c of company">
+                <td id="company-name">{{c.instrument.instrumentDescription}}</td>
+                <td>{{c.bidPrice}}</td>
+
+
+            </tr>
+
+
+        </table>
+
+
+
+
+
+    </div>
+</body>
+<app-footer></app-footer>
